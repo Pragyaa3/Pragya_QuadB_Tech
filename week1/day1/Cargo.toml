@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "src/icp_greeting_backend"
+]
+resolver = "2"
