@@ -3,3 +3,4 @@ week1/day1/icp_greeting/.dfx/
 week1/day1/icp_greeting/.env
 target/
 week1/day1/icp_greeting/target/
+week1/day1/node_modules/public-encrypt/test/test_rsa_privkey.pem
