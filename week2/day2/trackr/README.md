@@ -1,96 +1,46 @@
-# legacy-trackr
+# Trackr
 
-## Getting Started
+Trackr is a Solana-based decentralized application (dApp) built using `create-solana-dapp`. It allows users to connect their Phantom wallet and interact with a Solana program to increment, decrement, and track transaction history.
 
-### Prerequisites
+## Features
 
-- Node v18.18.0 or higher
+- 📈 **Increment & Decrement**: Update on-chain values via Solana transactions.
+- 📜 **Transaction History**: View past interactions with the program.
+- 🔐 **Wallet Integration**: Connect and interact with the dApp using Phantom Wallet.
 
-- Rust v1.77.2 or higher
-- Anchor CLI 0.30.1 or higher
-- Solana CLI 1.18.17 or higher
+## Prerequisites
 
-### Installation
+Ensure you have the following installed:
 
-#### Clone the repo
+- [Node.js](https://nodejs.org/) (LTS recommended)
+- [Yarn](https://yarnpkg.com/) or npm
+- [Solana CLI](https://docs.solana.com/cli/install-solana-cli) (Ensure your local network is set up)
 
-```shell
-git clone <repo-url>
-cd <repo-name>
+## Cloning & Setup
+
+To get started, follow these steps:
+
+```sh
+# Clone the repository
+git clone https://github.com/YOUR_GITHUB_USERNAME/Pragya_QuadB_Tech.git
+
+# Navigate to the project directory
+cd Pragya_QuadB_Tech/week2/day2/trackr
+
+# Install dependencies
+yarn install
+# or
+npm install
+
+# Start the development server
+yarn dev
+# or
+npm run dev
 ```
+Ensure you have a valid Solana wallet and sufficient test SOL in your devnet account.
 
-#### Install Dependencies
+## Transactions
 
-```shell
-pnpm install
-```
-
-#### Start the web app
-
-```
-pnpm dev
-```
-
-## Apps
-
-### anchor
-
-This is a Solana program written in Rust using the Anchor framework.
-
-#### Commands
-
-You can use any normal anchor commands. Either move to the `anchor` directory and run the `anchor` command or prefix the
-command with `pnpm`, eg: `pnpm anchor`.
-
-#### Sync the program id:
-
-Running this command will create a new keypair in the `anchor/target/deploy` directory and save the address to the
-Anchor config file and update the `declare_id!` macro in the `./src/lib.rs` file of the program.
-
-You will manually need to update the constant in `anchor/lib/counter-exports.ts` to match the new program id.
-
-```shell
-pnpm anchor keys sync
-```
-
-#### Build the program:
-
-```shell
-pnpm anchor-build
-```
-
-#### Start the test validator with the program deployed:
-
-```shell
-pnpm anchor-localnet
-```
-
-#### Run the tests
-
-```shell
-pnpm anchor-test
-```
-
-#### Deploy to Devnet
-
-```shell
-pnpm anchor deploy --provider.cluster devnet
-```
-
-### web
-
-This is a React app that uses the Anchor generated client to interact with the Solana program.
-
-#### Commands
-
-Start the web app
-
-```shell
-pnpm dev
-```
-
-Build the web app
-
-```shell
-pnpm build
-```
+- **Increment Counter**: Sends a transaction to increase the stored counter.
+- **Decrement Counter**: Sends a transaction to decrease the stored counter.
+- **Transaction History**: Displays recent transactions related to the counter.
