@@ -11,6 +11,11 @@ This repository contains all tasks and projects completed as part of the **Block
   - Day 3: Advanced Rust Canister Development
   - Day 4: Web3 To-Do List dApp
   - Day 5: Simple decentralized voting system
+ 
+- **Week 2: Solana (Rust)**
+  - Day 1: Basic "Hello Solana" program
+  - Day 2: Solana dApp with Web3.js & Phantom Wallet
+  - Day 3: Solana program for storing user data
   
 ## 🛠 Technologies Used
 - **Rust** (for ICP and Solana)
