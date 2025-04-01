@@ -16,6 +16,7 @@ This repository contains all tasks and projects completed as part of the **Block
   - Day 1: Basic "Hello Solana" program
   - Day 2: Solana dApp with Web3.js & Phantom Wallet
   - Day 3: Solana program for storing user data
+  - Day 4: SPL-Token
   
 ## 🛠 Technologies Used
 - **Rust** (for ICP and Solana)
