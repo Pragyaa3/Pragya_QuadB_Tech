@@ -17,6 +17,10 @@ This repository contains all tasks and projects completed as part of the **Block
   - Day 2: Solana dApp with Web3.js & Phantom Wallet
   - Day 3: Solana program for storing user data
   - Day 4: SPL-Token
+
+- **Week 3: Ethereum (Solidity)**
+  - Day 1: Simple Smart Contract in Solidity
+  - Day 2: DApp comparing gas fees on Ethereum
   
 ## 🛠 Technologies Used
 - **Rust** (for ICP and Solana)
