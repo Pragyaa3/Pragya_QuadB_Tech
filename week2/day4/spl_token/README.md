@@ -20,5 +20,6 @@ spl-token supply <TOKEN_MINT_ADDRESS>
 <img src="https://github.com/Pragyaa3/Pragya_QuadB_Tech/blob/main/week2/day4/spl_token/solana_code1.png?raw=true" width="700">
 
 ### 2. Solana Explorer  
-<img src="https://raw.githubusercontent.com/your-username/your-repo/main/mint_token.png" width="700">
+<img src="https://github.com/Pragyaa3/Pragya_QuadB_Tech/blob/main/week2/day4/spl_token/solana_ss4.png?raw=true" width="700">
+
 
