@@ -65,24 +65,30 @@ npx hardhat run scripts/deploy.js --network sepolia
 <details>
   <summary>✅ Initialized Hardhat Project</summary>
   <br>
-  <img src="https://link-to-your-screenshot.com/init.png" alt="Initialized Hardhat" width="700"/>
+  <img src="https://github.com/Pragyaa3/Pragya_QuadB_Tech/blob/main/week3/day3/reentrancy-vault/Eth_0.png?raw=true" alt="Initialized Hardhat" width="700"/>
 </details>
 
 <details>
   <summary>📥 Local Deployment (with vulnerability)</summary>
   <br>
-  <img src="https://link-to-your-screenshot.com/local-vuln.png" alt="Local Vulnerable Deployment" width="700"/>
+  <img src=https://github.com/Pragyaa3/Pragya_QuadB_Tech/blob/main/week3/day3/reentrancy-vault/Eth_2.0.png?raw=true" width="700"/>
+</details>
+
+<details>
+  <summary>📥 Local Deployment (after fix)</summary>
+  <br>
+  <img src="https://github.com/Pragyaa3/Pragya_QuadB_Tech/blob/main/week3/day3/reentrancy-vault/Eth_2.1%20.png?raw=true" alt="Local Fixed Deployment" width="700"/>
 </details>
 
 <details>
   <summary>💣 Sepolia Deployment (with vulnerability)</summary>
   <br>
-  <img src="https://link-to-your-screenshot.com/sepolia-vuln.png" alt="Sepolia Vulnerable Deployment" width="700"/>
+  <img src="https://github.com/Pragyaa3/Pragya_QuadB_Tech/blob/main/week3/day3/reentrancy-vault/Sep_2.png?raw=true" width="700"/>
 </details>
 
 <details>
   <summary>🛡️ Sepolia Deployment (after fix)</summary>
   <br>
-  <img src="https://link-to-your-screenshot.com/sepolia-fixed.png" alt="Sepolia Fixed Deployment" width="700"/>
+  <img src="https://github.com/Pragyaa3/Pragya_QuadB_Tech/blob/main/week3/day3/reentrancy-vault/Sep_1.png?raw=true" alt="Sepolia Fixed Deployment" width="700"/>
 </details>
 
