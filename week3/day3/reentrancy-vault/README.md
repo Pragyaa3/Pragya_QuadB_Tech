@@ -46,8 +46,14 @@ A Solidity smart contract demo of the **Reentrancy vulnerability** and how attac
 ## 🚀 Commands
 
 ```bash
+# Initialize Hardhat
+npx hardhat init
+
 # Compile contracts
 npx hardhat compile
 
-# Deploy & run attack
+# Deploy locally
+npx hardhat run scripts/deploy.js
+
+# Deploy & run attack on Sepolia
 npx hardhat run scripts/deploy.js --network sepolia
