@@ -22,7 +22,6 @@ This repository contains all tasks and projects completed as part of the **Block
   - Day 1: Simple Smart Contract in Solidity
   - Day 2: DApp comparing gas fees on Ethereum
   - Day 3: About reentrancy attacks
-  - Day 4: ...................
     
 ## 🛠 Technologies Used
 - **Rust** (for ICP and Solana)
