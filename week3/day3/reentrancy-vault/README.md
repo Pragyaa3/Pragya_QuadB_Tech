@@ -36,7 +36,7 @@ A Solidity smart contract demo of the **Reentrancy vulnerability** and how attac
 
 ## ⚙️ Tech Stack
 
-- Solidity `^0.8.0`
+- Solidity
 - Hardhat
 - Sepolia Testnet
 - JavaScript (Deployment Scripts)
