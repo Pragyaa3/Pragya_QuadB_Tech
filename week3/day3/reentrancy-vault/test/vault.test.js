@@ -25,15 +25,18 @@ describe("Vault Reentrancy Test", function () {
     expect(before).to.equal(ethers.parseEther("10"));
   });
 
-  it("should drain funds in vulnerable contract", async () => {
-    await attackerContract.connect(attacker).attack({
-      value: ethers.parseEther("1"),
-    });
-
-    const vaultBalance = await ethers.provider.getBalance(vault.getAddress());
+  it("should prevent reentrancy attack", async () => {
+    await expect(
+      attackerContract.connect(attacker).attack({
+        value: ethers.parseEther("1"),
+      })
+    ).to.be.revertedWith("Withdraw failed");
+  
+    const vaultBalance = await ethers.provider.getBalance(await vault.getAddress());
     const attackerBalance = await ethers.provider.getBalance(attackerContract.getAddress());
-
-    expect(vaultBalance).to.equal(0);
-    expect(attackerBalance).to.equal(ethers.parseEther("11"));
+  
+    expect(vaultBalance).to.equal(ethers.parseEther("10")); // unchanged
+    expect(attackerBalance).to.equal(0); // only their own deposit
   });
+  
 });

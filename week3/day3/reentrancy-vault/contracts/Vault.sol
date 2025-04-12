@@ -9,18 +9,16 @@ contract Vault {
     }
 
     function withdraw() public {
-    uint amount = balances[msg.sender];
-    require(amount > 0, "Nothing to withdraw");
+        uint amount = balances[msg.sender];
+        require(amount > 0, "Nothing to withdraw");
 
-    // ❌ VULNERABLE: transfer before setting balance to 0
-    (bool success, ) = msg.sender.call{value: amount}("");
-    require(success, "Withdraw failed");
+        // ✅ Fix: update state before external call
+        balances[msg.sender] = 0;
 
-    balances[msg.sender] = 0;
-}
+        (bool success, ) = msg.sender.call{value: amount}("");
+        require(success, "Withdraw failed");
+    }
 
-
-    // Helper to check balance
     function getBalance() public view returns (uint) {
         return address(this).balance;
     }
