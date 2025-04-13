@@ -23,7 +23,11 @@ This repository contains all tasks and projects completed as part of the **Block
   - Day 2: DApp comparing gas fees on Ethereum
   - Day 3: About reentrancy attacks
   - Day 4: ......
-  
+
+- **Week 4: Aptos (Move)**
+  - Day 1: Simple Counter Porgram in Move
+  - Day 2: Lending and Borrowing dApp
+  - Day 3: Gas Fee Trackr
     
 ## 🛠 Technologies Used
 - **Rust** (for ICP and Solana)
