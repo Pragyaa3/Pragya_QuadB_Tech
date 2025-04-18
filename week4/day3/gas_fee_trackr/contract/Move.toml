@@ -1,0 +1,13 @@
+[package]
+name = "gas_fee_trackr"
+version = "1.0.0"
+authors = []
+
+[addresses]
+gas_fee_trackr = "0x82d40d32a5b79af5b247f5e12033979b16b1b2fff6d89b480310214dcef12220"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", rev = "mainnet", subdir = "aptos-move/framework/aptos-framework" }
+AptosStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-stdlib", rev = "main" }
+
+[dev-dependencies]

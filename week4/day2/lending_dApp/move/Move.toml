@@ -1,0 +1,10 @@
+[package]
+name = "lending_dApp"
+version = "0.0.1"
+published-at = "0x5da941a78cb43d8e7f1ba1f2faf6bd5d463c2bf7ef5567c339b9ec3cfd6bd7e3"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "main" }
+
+[addresses]
+lending_dApp = "0x5da941a78cb43d8e7f1ba1f2faf6bd5d463c2bf7ef5567c339b9ec3cfd6bd7e3"
