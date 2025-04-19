@@ -37,7 +37,6 @@ This repository contains all tasks and projects completed as part of the **Block
 
 ## 📜 Notes
 - All projects will be pushed with proper documentation.
-- Code improvements and optimizations will be added as needed.
 - Suggestions and contributions are always welcome! 😊
 
 ## 📬 Contact
